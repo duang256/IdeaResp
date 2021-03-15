@@ -1,0 +1,22 @@
+功能分析：
+查询所有员工信息
+根据编号查询员工信息
+修改员工信息（员工姓名）
+新增员工信息
+删除员工信息
+
+数据库设计
+表emp
+
+sql语句设计
+   查询所有员工信息
+   select *from emp
+   根据编号查询员工信息
+   select *from emp where empno=?
+   修改员工信息（员工姓名）
+   update emp set ename=? where empno=?
+   新增员工信息
+   insert into emp values(?,?,?,?,?,?,?,?)
+   删除员工信息
+   delete from emp where empno=?
+

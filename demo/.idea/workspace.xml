@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="609a7ee7-8a9f-449d-b949-13708f722859" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="demo" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YlAVxpnCZgVVop2VDxrrjHIKdW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java_IDEA\demo" />
+      <recent name="D:\Java_IDEA\demo\src" />
+      <recent name="D:\Java_IDEA\demo\src\YY" />
+      <recent name="D:\Java_IDEA\demo\lib" />
+      <recent name="D:\Java_IDEA\demo\src\Text" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java_IDEA\demo\lib" />
+      <recent name="D:\Java_IDEA\demo\lib2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.jingdong">
+    <configuration name="SpiderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="YY.SpiderTest" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YY.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TalkStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="YY.TalkStudent" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YY.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TalkTeacher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="YY.TalkTeacher" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YY.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="host" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="YY.host" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YY.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jingdong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="YY.jingdong" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YY.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.jingdong" />
+        <item itemvalue="Application.host" />
+        <item itemvalue="Application.TalkStudent" />
+        <item itemvalue="Application.TalkTeacher" />
+        <item itemvalue="Application.SpiderTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="609a7ee7-8a9f-449d-b949-13708f722859" name="Default Changelist" comment="" />
+      <created>1583506834776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583506834776</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="722" y="74" key="#Auto_Import" timestamp="1585034839158">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="74" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1585034839158" />
+    <state x="722" y="74" key="#Images" timestamp="1585132554715">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="74" key="#Images/0.0.1536.824@0.0.1536.824" timestamp="1585132554715" />
+    <state x="393" y="143" key="#Project_Structure" timestamp="1585187082524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="143" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585187082524" />
+    <state x="447" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583507955145">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583507955145" />
+    <state x="766" y="218" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585540483094">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="766" y="218" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1585540483094" />
+    <state x="866" y="226" width="495" height="538" key="#com.intellij.ide.util.MemberChooser" timestamp="1586521993528">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="866" y="226" width="495" height="538" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586521993528" />
+    <state x="796" y="168" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584603329422">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="796" y="168" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584603329422" />
+    <state x="519" y="194" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1586506862054">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="519" y="194" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586506862054" />
+    <state x="865" y="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1584968674548">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="865" y="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1584968674548" />
+    <state x="860" y="100" width="584" height="624" key="DiffContextDialog" timestamp="1585534276149">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="860" y="100" width="584" height="624" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1585534276149" />
+    <state x="517" y="175" key="FileChooserDialogImpl" timestamp="1586490011543">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="517" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586490011543" />
+    <state width="890" height="164" key="GridCell.Tab.0.bottom" timestamp="1586526751134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="890" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586526751134" />
+    <state width="890" height="164" key="GridCell.Tab.0.center" timestamp="1586526751134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="890" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586526751134" />
+    <state width="890" height="164" key="GridCell.Tab.0.left" timestamp="1586526751134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="890" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586526751134" />
+    <state width="890" height="164" key="GridCell.Tab.0.right" timestamp="1586526751134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="890" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586526751134" />
+    <state width="890" height="225" key="GridCell.Tab.1.bottom" timestamp="1586526751134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="890" height="225" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586526751134" />
+    <state width="890" height="225" key="GridCell.Tab.1.center" timestamp="1586526751134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="890" height="225" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586526751134" />
+    <state width="890" height="225" key="GridCell.Tab.1.left" timestamp="1586526751134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="890" height="225" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586526751134" />
+    <state width="890" height="225" key="GridCell.Tab.1.right" timestamp="1586526751134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="890" height="225" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586526751134" />
+    <state x="14" y="0" key="SettingsEditor" timestamp="1585187205820">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="14" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585187205820" />
+    <state x="335" y="262" width="694" height="588" key="dock-window-1" timestamp="1586507145658">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="335" y="262" width="694" height="588" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1586507145658" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1583593631865">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1583593631865" />
+    <state x="169" y="30" key="new project wizard" timestamp="1585127497532">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="169" y="30" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585127497532" />
+    <state x="895" y="43" key="refactoring.ChangeSignatureDialog" timestamp="1584516877236">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="895" y="43" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1584516877236" />
+    <state x="456" y="186" key="run.anything.popup" timestamp="1585709143188">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="456" y="186" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585709143188" />
+    <state x="786" y="146" width="672" height="160" key="search.everywhere.popup" timestamp="1585899480099">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="786" y="146" width="672" height="160" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585899480099" />
+  </component>
+</project>

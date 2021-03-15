@@ -1,0 +1,6 @@
+0    [main] INFO  test.Demo  - 我是info信息
+2    [main] WARN  test.Demo  - 我是警告信息
+3    [main] ERROR test.Demo  - 我是错误信息
+3    [main] FATAL test.Demo  - 我是致命错误
+0    [main] ERROR test.Demo  - 我是错误信息
+3    [main] FATAL test.Demo  - 我是致命错误

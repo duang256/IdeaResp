@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.easylife.dao.RecycleMapper">
+    <resultMap id="BaseResultMap" type="com.easylife.pojo.Recycle">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="type" jdbcType="VARCHAR" property="type"/>
+        <result column="image" jdbcType="VARCHAR" property="image"/>
+        <result column="description" jdbcType="VARCHAR" property="description"/>
+        <result column="price" jdbcType="DOUBLE" property="price"/>
+        <result column="reward" jdbcType="DOUBLE" property="reward"/>
+    </resultMap>
+
+    <sql id="Base_Recycle_List">
+        id, type, image, description, price, reward
+    </sql>
+
+    <select id="SelectAllRecycle" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Recycle_List"/>
+        from recycle
+    </select>
+
+    <select id="Selectbyid" resultMap="BaseResultMap" parameterType="int">
+        select
+            <include refid="Base_Recycle_List"/>
+        from recycle
+        where id = #{id}
+    </select>
+
+    
+</mapper>

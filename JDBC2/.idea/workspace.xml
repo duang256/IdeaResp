@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05cdf470-88a3-4409-97c7-b30cbbab2504" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JDBC2" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dFm32Q8LO5l3tLQ43A2vivghB6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JDBC案例" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.Demo03">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Demo" />
+      <module name="JDBC2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Demo03" />
+      <module name="JDBC2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.demo02" />
+      <module name="JDBC2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo03" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.demo02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05cdf470-88a3-4409-97c7-b30cbbab2504" name="Default Changelist" comment="" />
+      <created>1592029012051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592029012051</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="846" y="223" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592205530121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="846" y="223" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1592205530121" />
+    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1592033726047">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592033726047" />
+    <state x="933" y="97" width="438" height="562" key="FileChooserDialogImpl" timestamp="1594420703677">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="933" y="97" width="438" height="562" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594420703677" />
+    <state width="1493" height="117" key="GridCell.Tab.0.bottom" timestamp="1592231988516">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="117" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592231988516" />
+    <state width="1493" height="117" key="GridCell.Tab.0.center" timestamp="1592231988514">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="117" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592231988514" />
+    <state width="1493" height="117" key="GridCell.Tab.0.left" timestamp="1592231988514">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="117" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592231988514" />
+    <state width="1493" height="117" key="GridCell.Tab.0.right" timestamp="1592231988515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="117" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592231988515" />
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom" timestamp="1592231266588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592231266588" />
+    <state width="1493" height="251" key="GridCell.Tab.1.center" timestamp="1592231266588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592231266588" />
+    <state width="1493" height="251" key="GridCell.Tab.1.left" timestamp="1592231266588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592231266588" />
+    <state width="1493" height="251" key="GridCell.Tab.1.right" timestamp="1592231266588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592231266588" />
+    <state x="498" y="0" key="SettingsEditor" timestamp="1592036585922">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592036585922" />
+    <state x="178" y="23" key="new project wizard" timestamp="1594264641236">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="23" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594264641236" />
+  </component>
+</project>

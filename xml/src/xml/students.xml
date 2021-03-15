@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 这里是注释-->
+<!-- 根元素有且只有一个-->
+
+<!DOCTYPE scores[
+        <!ELEMENT scores (scores)>
+        ]>
+
+<scores>
+    <student id="stu01">
+        <name>网通</name>
+        <lessons>java</lessons>
+        <score>89</score>
+    </student>
+
+    <student id="stu02">
+        <name>离家</name>
+        <lessons>sql</lessons>
+        <score>58</score>
+    </student>
+</scores>

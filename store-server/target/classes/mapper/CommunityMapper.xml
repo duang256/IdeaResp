@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.easylife.dao.SecondHandCommunityDao.CommunityMapper">
+
+    <resultMap id="BaseResultMap" type="com.easylife.pojo.Community">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="place" jdbcType="VARCHAR" property="place"/>
+        <result column="longitude" jdbcType="DOUBLE" property="longitude"/>
+        <result column="latitude" jdbcType="DOUBLE" property="latitude"/>
+        <result column="community_image" jdbcType="VARCHAR" property="community_image"/>
+
+    </resultMap>
+
+    <sql id="Base_Column_List">
+    id, name, place, longitude, latitude, community_image
+  </sql>
+</mapper>

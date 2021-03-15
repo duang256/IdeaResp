@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE scores SYSTEM "scores.dtd">
+
+<scores>
+    <student id="001">
+        <name>网通</name>
+        <lessons>java</lessons>
+        <score>89</score>
+    </student>
+    <student id="002">
+        <name>校长</name>
+        <lessons>高数</lessons>
+        <score>99</score>
+    </student>
+</scores>

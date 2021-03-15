@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<scores>
+  <student id="s01">
+    <name>周某</name>
+    <lessons>线代</lessons>
+    <score>88</score>
+  </student>
+</scores>

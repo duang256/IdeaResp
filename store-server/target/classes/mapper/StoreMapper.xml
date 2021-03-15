@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.easylife.dao.StoreMapper">
+    <resultMap id="BaseResultMap" type="com.easylife.pojo.Store">
+
+        <!--
+          WARNING - @mbg.generated
+          2020.12.9 hua
+        -->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="image" jdbcType="VARCHAR" property="image"/>
+        <result column="status" jdbcType="BIT" property="status"/>
+        <result column="detail" jdbcType="VARCHAR" property="detail"/>
+        <result column="type" jdbcType="INTEGER" property="type"/>
+        <result column="place" jdbcType="VARCHAR" property="place"/>
+        <result column="tel" jdbcType="VARCHAR" property="tel"/>
+        <result column="post" jdbcType="VARCHAR" property="post"/>
+        <result column="stime" jdbcType="TIMESTAMP" property="stime"/>
+        <result column="etime" jdbcType="TIMESTAMP" property="etime"/>
+        <result column="self" jdbcType="INTEGER" property="self"/>
+        <result column="delivery" jdbcType="INTEGER" property="delivery"/>
+        <result column="community_id" jdbcType="INTEGER" property="community_id"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+    id,name,image,status,detail, detail, type, place,tel,post,stime,etime,self,delivery,community_id
+  </sql>
+
+
+  <select id="selectStoreById" resultMap="BaseResultMap" parameterType="int">
+    select
+    <include refid="Base_Column_List"/>
+    from store_store
+    where id= #{id}
+  </select>
+
+
+
+  <select id="selectStoreByType" resultMap="BaseResultMap" parameterType="int">
+    select
+    <include refid="Base_Column_List"/>
+    from store_store
+    where type= #{type}
+  </select>
+
+  <select id="selectStoreByName" resultMap="BaseResultMap" parameterType="String">
+    select
+    <include refid="Base_Column_List"/>
+    from store_store
+    <where>
+      name like concat('%',concat(#{name},'%'))
+    </where>
+  </select>
+
+  <select id="selectList" resultMap="BaseResultMap" >
+    SELECT
+    <include refid="Base_Column_List"/>
+    from store_store
+    ORDER BY id asc
+  </select>
+    <select id="selectStoreByCommunityId" resultMap="BaseResultMap" parameterType="int">
+        select
+        <include refid="Base_Column_List"/>
+        from store_store
+        where community_id= #{community_id}
+    </select>
+</mapper>

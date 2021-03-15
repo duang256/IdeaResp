@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.easylife.dao.QuestionMapper">
+  <resultMap id="BaseResultMap" type="com.easylife.pojo.Question">
+    <!--
+      WARNING - @mbg.generated
+      2020.12.9 hua
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="a" jdbcType="VARCHAR" property="a" />
+    <result column="b" jdbcType="VARCHAR" property="b" />
+    <result column="c" jdbcType="VARCHAR" property="c" />
+    <result column="d" jdbcType="VARCHAR" property="d" />
+    <result column="ch" jdbcType="INTEGER" property="check" />
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+     id,name,a,b,c,d,ch
+  </sql>
+
+
+  <select id="selectQuestionById" resultMap="BaseResultMap" parameterType="com.easylife.pojo.Question">
+    select
+    <include refid="Base_Column_List"/>
+    from store_question
+    where id= #{id}
+  </select>
+
+  <select id="selectList" resultMap="BaseResultMap" >
+    SELECT
+    <include refid="Base_Column_List"/>
+    from store_question
+    ORDER BY id asc
+  </select>
+
+</mapper>

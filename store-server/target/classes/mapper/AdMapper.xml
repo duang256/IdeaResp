@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.easylife.dao.AdMapper">
+  <resultMap id="BaseResultMap" type="com.easylife.pojo.Ad">
+
+    <!--
+      WARNING - @mbg.generated
+      2020.12.28 hua
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    id, type, url
+  </sql>
+
+
+  <select id="selectStoreByType" resultMap="BaseResultMap" parameterType="int">
+    select
+    <include refid="Base_Column_List"/>
+    from store_ad
+    where type= #{type}
+  </select>
+
+
+  <select id="selectList" resultMap="BaseResultMap" >
+    SELECT
+    <include refid="Base_Column_List"/>
+    from store_ad
+    ORDER BY id asc
+  </select>
+
+</mapper>

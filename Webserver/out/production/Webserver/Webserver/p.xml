@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persons>
+    <person>
+    <name>颜某</name>
+    <age>999</age>
+    </person>
+
+    <person>
+        <name>周某</name>
+        <age>999</age>
+    </person>
+</persons>

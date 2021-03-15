@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!ELEMENT scores (student+)>
+        <!--同级应该用逗号隔开-->
+        <!ELEMENT student (name,lessons,score)>
+        <!--#PCDATA代表限定字符-->
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT lessons (#PCDATA)>
+        <!ELEMENT score (#PCDATA)>
+        <!--ATTLIST可以声明参数-->
+        <!ATTLIST student id CDATA #REQUIRED>

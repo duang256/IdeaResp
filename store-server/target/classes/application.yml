@@ -1,0 +1,111 @@
+# 项目服务器配置（默认是下面的，不写也行）
+# 测试�?下是不是在分�?
+server:
+  port: 8080
+  context-path: /
+
+
+#==========logback start===================
+#logging:
+#    level:
+#        com.lqm.controller.common.Test1Controller: 'off'
+
+#==========logback end===================
+
+#==========mysql redis druid等start===================
+spring:
+  application:
+    name: store
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/store?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+    #�?大活跃数
+    maxActive: 20
+    #初始化数�?
+    initialSize: 1
+    #�?大连接等待超时时�?
+    maxWait: 60000
+    #打开PSCache，并且指定每个连接PSCache的大�?
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    #通过connectionProperties属�?�来打开mergeSql功能；慢SQL记录
+    #connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 1 from dual
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    #配置监控统计拦截的filters，去掉后监控界面sql将无法统�?,'wall'用于防火�?
+    filters: stat, wall, log4j
+    tomcat:
+      max-active: 150
+      max-idle: 50
+      min-idle: 10
+      initial-size: 10
+      time-between-eviction-runs-millis: 30000
+      min-evictable-idle-time-millis: 60000
+
+  redis: # redis配置
+    host: 127.0.0.1
+    port: 6379
+    timeout: 20000
+    pool:
+      max-active: 8
+      max-idle: 8
+      min-idle: 0
+      max-wait: -1
+
+
+
+#访问�?127.0.0.1:8080/druid/login.html
+#121.196.28.28:3306
+#localhost:3306
+druid:
+  url: jdbc:mysql://127.0.0.1:3306/store
+  username: admin
+  password: 123456
+  initial-size: 1
+  min-idle: 1
+  max-active: 20
+  test-on-borrow: true
+
+#========== end===================
+
+#========== mybatis start===================
+mybatis:
+  # 自动扫描
+  type-aliases-package: com.easylife.pojo
+  configuration:
+    # 打开延迟加载 的开�?
+    lazy-loading-enabled: true
+    # 将积极加载改为消极加载即按需要加�?
+    aggressive-lazy-loading: false
+    # �?启二级缓�?
+    cache-enabled: true
+    # 支持驼峰命名�?
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*.xml
+
+mapper:
+  mappers: com.easylife.util.MyMapper
+  not-empty: false
+  identity: MYSQL
+
+
+pagehelper:
+  helperDialect: mysql
+  # 数据合理化：true时在pageNum<1会查询第�?页，如果pageNum>pages会查询最后一�?,false:返回null
+  reasonable: false
+  supportMethodsArguments: true
+  params: count=countSql
+
+#========== mybatis end===================
+
+
+
+

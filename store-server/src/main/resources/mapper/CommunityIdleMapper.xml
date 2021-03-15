@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.easylife.dao.SecondHandCommunityDao.CommunityIdleMapper">
+
+    <resultMap id="BaseResultMap" type="com.easylife.pojo.CommunityIdle">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="user_id" jdbcType="INTEGER" property="user_id"/>
+        <result column="starting_price" jdbcType="DECIMAL" property="starting_price"/>
+        <result column="price" jdbcType="DECIMAL" property="price"/>
+        <result column="description" jdbcType="LONGVARCHAR" property="description"/>
+        <result column="main_img" jdbcType="VARCHAR" property="main_img"/>
+        <result column="item_img2" jdbcType="VARCHAR" property="item_img2"/>
+        <result column="item_img3" jdbcType="VARCHAR" property="item_img3"/>
+        <result column="item_img4" jdbcType="VARCHAR" property="item_img4"/>
+        <result column="item_img5" jdbcType="VARCHAR" property="item_img5"/>
+        <result column="item_img6" jdbcType="VARCHAR" property="item_img6"/>
+        <result column="item_img7" jdbcType="VARCHAR" property="item_img7"/>
+        <result column="item_img8" jdbcType="VARCHAR" property="item_img8"/>
+        <result column="item_img9" jdbcType="VARCHAR" property="item_img9"/>
+        <result column="category" jdbcType="INTEGER" property="category"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+    id, name, user_id, starting_price, price, description,main_img,
+    item_img2,item_img3,item_img4,item_img5,item_img6,item_img7,item_img8,item_img9,category
+  </sql>
+
+
+    <select id="selectList" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        from community_idle
+        ORDER BY id asc
+    </select>
+
+    <select id="selectByUserId" resultMap="BaseResultMap" parameterType="Integer">
+        select
+        <include refid="Base_Column_List"/>
+        from community_idle
+        where user_id = #{user_id}
+    </select>
+
+    <select id="selectByNameAndIdleId" resultMap="BaseResultMap" parameterType="map">
+        SELECT
+        <include refid="Base_Column_List"/>
+        from community_idle
+        <where>
+            <if test="name != null">
+                and name like #{name}
+            </if>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+        </where>
+    </select>
+    <select id="selectByCategoryId" resultMap="BaseResultMap" parameterType="Integer">
+        select
+        <include refid="Base_Column_List"/>
+        from community_idle
+        where category = #{category}
+    </select>
+    <select id="selectById" resultMap="BaseResultMap" parameterType="Integer">
+        select
+        <include refid="Base_Column_List"/>
+        from community_idle
+        where id = #{id}
+    </select>
+    <select id="selectIdleByName" resultMap="BaseResultMap" parameterType="String">
+        select
+        <include refid="Base_Column_List"/>
+        from community_idle
+        <where>
+            name like concat('%',concat(#{name},'%'))
+        </where>
+    </select>
+
+</mapper>
